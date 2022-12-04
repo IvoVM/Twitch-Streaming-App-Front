@@ -1,0 +1,43 @@
+p {
+  padding-left: 3rem;
+}
+b {
+  color: #5c16c5;
+}
+b:hover {
+  border-bottom: 2px solid #5c16c5;
+  cursor: pointer;
+}
+.wrapper-cover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 0 0 3rem;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: var(--textPrimary);
+  border-radius: var(--borderRadius);
+}
+
+.cover img {
+  width: 145px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cover .zone-title {
+  padding: 0.35rem 0;
+  font-size: 90%;
+  font-weight: 600;
+}
+
+.cover .sub-title-cover {
+  padding: 0.35rem 0;
+  font-size: 80%;
+  font-weight: 400;
+  opacity: 0.8;
+}

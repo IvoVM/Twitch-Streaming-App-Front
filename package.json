@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,7 +18,11 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "@types/hls.js": "^1.0.0",
+    "hls.js": "^1.2.5",
+    "ngx-carousel-lib": "^0.1.2",
     "rxjs": "~7.5.0",
+    "swiper": "^8.4.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
